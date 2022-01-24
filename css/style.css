@@ -35,6 +35,9 @@ header{
     float: left;
 }
 
+.float-right{
+    float: right;
+}
 .relative{
     position: relative;
 }
@@ -154,4 +157,49 @@ section:nth-child(2n+2){
     font-size: 20px;
     color: white;
     background-color: rgb(142, 161, 225);
+}
+
+/* inizio footer */
+
+footer{
+    background-color: rgb(35, 39, 42);
+    padding: 50px;
+}
+
+.place,.footer-list{
+    margin-left: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.violet{
+    color: rgb(114, 137, 218);
+}
+.place p{
+    margin: 10px 0;
+}
+.place p img{
+    height: 20px;
+}
+
+.footer-list nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list li:first-of-type a{
+    color: rgb(114, 137, 218);
+} 
+
+.footer-list nav ul li{  
+    list-style: none;
+    margin: 10px 40px;
+}
+
+#border-footer{
+    border-bottom: 2px solid rgb(114, 137, 218);;
+}
+
+.bottom-footer{
+    margin-top: 30px;
 }
