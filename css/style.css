@@ -13,6 +13,10 @@ body{
     font-family: 'Whitney-Semibold', sans-serif;
 }
 
+.margin-bottom{
+    margin-bottom: 200px;
+}
+
 header{
     width: 100%;
     height: 80px;
@@ -69,6 +73,8 @@ button{
     width: 50%;
 }
 
+/* INIZIO JUMBOTRON */
+
 #jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -77,8 +83,11 @@ button{
     color: white;   
 }
 
-#jumbotron .jumbo-text{
+.text-size{
     font-size: 1.5rem;
+}
+
+#jumbotron .jumbo-text{
     text-align: center;
     width: 50%;
     position: absolute;
@@ -87,7 +96,7 @@ button{
     transform: translate(-50%,-50%);
 }
 
-#jumbotron .jumbo-text h1{
+.text-size h1{
     margin-bottom: 30px;
 }
 
@@ -96,7 +105,6 @@ button{
 }
 
 #jumbotron .jumbo-text div{
-    display: contents;
     margin-right: 15px;
 }
 
@@ -108,4 +116,19 @@ button{
 button:nth-of-type(2){
     color: white;
     background-color: black;
+}
+
+/* inizio sezioni */
+
+section:nth-child(2n+2){
+    background-color: lightgrey;
+}
+
+.img-section{
+    width: 60%;
+}
+
+.text-section{
+    width: 40%;
+    padding: 40px;
 }
