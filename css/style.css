@@ -13,8 +13,9 @@ body{
     font-family: 'Whitney-Semibold', sans-serif;
 }
 
-.margin-bottom{
+.dimension{
     margin-bottom: 200px;
+    padding: 50px 0;
 }
 
 header{
@@ -56,6 +57,10 @@ header .main-nav li a{
     padding-right: 35px;
 }
 
+header .main-nav li:last-of-type a{
+    padding-right: 0;
+}
+
 .logo{
     width: 25%;
 }
@@ -81,7 +86,7 @@ button{
 #jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 545px;
+    height: 600px;
     width: 100vw;
     color: white;   
 }
@@ -202,4 +207,8 @@ footer{
 
 .bottom-footer{
     margin-top: 30px;
+}
+
+.place p i{
+    margin-left: 10px;
 }
