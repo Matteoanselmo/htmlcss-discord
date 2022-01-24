@@ -1,0 +1,111 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: 'Whitney-Semibold', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: rgb(49, 97, 224);
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.float-left{
+    float: left;
+}
+
+.relative{
+    position: relative;
+}
+
+img{
+    vertical-align: middle;
+}
+
+header .main-nav li{
+    display: inline-block;
+}
+
+header .main-nav li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 35px;
+}
+
+.logo{
+    width: 25%;
+}
+
+.login{
+    text-align: right;
+    width: 25%;
+}
+
+button{
+    border-radius: 25px;
+    border: none;
+    padding: 8px 12px;
+}
+
+.main-nav{
+    text-align: center;
+    width: 50%;
+}
+
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    color: white;   
+}
+
+#jumbotron .jumbo-text{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#jumbotron .jumbo-text h1{
+    margin-bottom: 30px;
+}
+
+#jumbotron .jumbo-text p{
+    margin-bottom: 20px;
+}
+
+#jumbotron .jumbo-text div{
+    display: contents;
+    margin-right: 15px;
+}
+
+.jumbo-text button{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+button:nth-of-type(2){
+    color: white;
+    background-color: black;
+}
